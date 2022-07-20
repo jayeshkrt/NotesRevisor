@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 243, 71, 255), stop:1 rgba(207, 96, 255, 255));}</string>
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.0436893 rgba(17, 17, 17, 255));}</string>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -70,7 +70,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
 color: rgb(255, 255, 255);
-background-color: rgb(103, 106, 255);
+background-color: rgb(49, 63, 255);;
 font: 18pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
@@ -82,13 +82,13 @@ font: 18pt &quot;Arial&quot;;</string>
      <rect>
       <x>510</x>
       <y>40</y>
-      <width>271</width>
+      <width>301</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 36pt &quot;Colonna MT&quot;;
-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.05 rgba(14, 8, 73, 255), stop:0.36 rgba(28, 17, 145, 255), stop:0.6 rgba(126, 14, 81, 255), stop:0.75 rgba(234, 11, 11, 255), stop:0.79 rgba(244, 70, 5, 255), stop:0.86 rgba(255, 136, 0, 255), stop:0.935 rgba(239, 236, 55, 255));</string>
+color: rgb(255,255,255), qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.05 rgba(14, 8, 73, 255), stop:0.36 rgba(28, 17, 145, 255), stop:0.6 rgba(126, 14, 81, 255), stop:0.75 rgba(234, 11, 11, 255), stop:0.79 rgba(244, 70, 5, 255), stop:0.86 rgba(255, 136, 0, 255), stop:0.935 rgba(239, 236, 55, 255));</string>
     </property>
     <property name="text">
      <string>Task Revisor</string>
@@ -135,7 +135,7 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(170, 170, 255);
+background-color: rgb(49, 63, 255);;
 color: rgb(255, 255, 255);
 font: 12pt &quot;Arial&quot;;</string>
     </property>
@@ -188,7 +188,7 @@ font: 12pt &quot;Arial&quot;;</string>
      <string notr="true">color: rgb(255, 255, 255);
 border-radius: 10px;
 font: 16pt &quot;Arial&quot;;
-background-color: rgb(85, 170, 127);</string>
+background-color: rgb(0, 85, 0);</string>
     </property>
     <property name="text">
      <string>All Notes</string>
@@ -222,8 +222,9 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(0, 255, 255);
-font: 12pt &quot;Arial&quot;;</string>
+background-color: rgb(49, 63, 255);
+font: 12pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>logout</string>

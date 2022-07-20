@@ -24,19 +24,19 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
-background-color: qlineargradient(spread:pad, x1:0.0113636, y1:0.034, x2:1, y2:1, stop:0 rgba(85, 170, 255, 255), stop:1 rgba(255, 255, 127, 255));}</string>
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.15534 rgba(101, 101, 101, 255), stop:0.456311 rgba(0, 0, 0, 255));}</string>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>150</y>
-      <width>131</width>
+      <x>540</x>
+      <y>110</y>
+      <width>161</width>
       <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);
+     <string notr="true">color: rgb(255, 255, 255);
 font: 36pt &quot;Calibri&quot;;</string>
     </property>
     <property name="text">
@@ -46,15 +46,15 @@ font: 36pt &quot;Calibri&quot;;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>220</y>
+      <x>540</x>
+      <y>210</y>
       <width>201</width>
       <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 16pt &quot;Arial&quot;;
-color: rgb(0, 0, 0);</string>
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Please verify it's you</string>
@@ -63,8 +63,8 @@ color: rgb(0, 0, 0);</string>
    <widget class="QPushButton" name="login">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>450</y>
+      <x>590</x>
+      <y>430</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -72,7 +72,8 @@ color: rgb(0, 0, 0);</string>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
 font: 12pt &quot;Arial&quot;;
-background-color: rgb(170, 255, 255);</string>
+color:rgb(255, 255, 255);
+background-color: rgb(49, 63, 255);</string>
     </property>
     <property name="text">
      <string>Log in</string>
@@ -81,8 +82,8 @@ background-color: rgb(170, 255, 255);</string>
    <widget class="QLineEdit" name="emailfield">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>300</y>
+      <x>530</x>
+      <y>290</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -95,8 +96,8 @@ font: 12pt &quot;Arial&quot;;</string>
    <widget class="QLineEdit" name="passwordfield">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>370</y>
+      <x>530</x>
+      <y>360</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -112,14 +113,15 @@ font: 12pt &quot;Arial&quot;;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>270</y>
-      <width>71</width>
+      <x>530</x>
+      <y>260</y>
+      <width>81</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255)</string>
     </property>
     <property name="text">
      <string>Username</string>
@@ -128,14 +130,15 @@ font: 12pt &quot;Arial&quot;;</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>340</y>
+      <x>530</x>
+      <y>330</y>
       <width>71</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255)</string>
     </property>
     <property name="text">
      <string>Password</string>
@@ -169,7 +172,8 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(0, 255, 255);
+background-color: rgb(49, 63, 255);
+color:rgb(255, 255, 255);
 font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
@@ -179,14 +183,15 @@ font: 12pt &quot;Arial&quot;;</string>
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>410</y>
-      <width>131</width>
+      <x>530</x>
+      <y>400</y>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color : rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Remember me</string>

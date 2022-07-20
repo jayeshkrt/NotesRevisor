@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 243, 71, 255), stop:1 rgba(207, 96, 255, 255));}</string>
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.0436893 rgba(23, 23, 23, 255));}</string>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -36,7 +36,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 24pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 24pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Add a note</string>
@@ -52,7 +53,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 18pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Title:</string>
@@ -69,7 +71,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(151, 255, 167);
+color : rgb(255,255,255);
+background-color: rgb(49, 63, 255);
 font: 18pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
@@ -81,12 +84,13 @@ font: 18pt &quot;Arial&quot;;</string>
      <rect>
       <x>510</x>
       <y>100</y>
-      <width>271</width>
+      <width>311</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 36pt &quot;Colonna MT&quot;;</string>
+     <string notr="true">font: 36pt &quot;Colonna MT&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Task Revisor</string>
@@ -131,7 +135,8 @@ font: 18pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 18pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Path to File: </string>
@@ -160,7 +165,8 @@ font: 18pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 18pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Importance:</string>
@@ -176,7 +182,8 @@ font: 18pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>e.g.- D:\path\to\file 
@@ -193,7 +200,8 @@ font: 18pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>(0 to 9)</string>
@@ -227,7 +235,8 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(0, 255, 255);
+color : rgb(255,255,255);
+background-color: rgb(49, 63, 255);
 font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
@@ -244,7 +253,8 @@ font: 12pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 18pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>OR</string>
@@ -273,7 +283,8 @@ font: 12pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 18pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>URL:</string>
@@ -290,7 +301,8 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(0, 255, 255);
+color : rgb(255,255,255);
+background-color: rgb(49, 63, 255);
 font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">

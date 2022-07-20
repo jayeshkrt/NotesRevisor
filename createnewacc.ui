@@ -24,19 +24,19 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
-background-color: qlineargradient(spread:pad, x1:0.0113636, y1:0.034, x2:1, y2:1, stop:0 rgba(85, 170, 255, 255), stop:1 rgba(255, 255, 127, 255));}</string>
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.15534 rgba(101, 101, 101, 255), stop:0.456311 rgba(0, 0, 0, 255));}</string>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>150</y>
-      <width>371</width>
+      <y>70</y>
+      <width>441</width>
       <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);
+     <string notr="true">color: rgb(255, 255, 255);
 font: 36pt &quot;Calibri&quot;;</string>
     </property>
     <property name="text">
@@ -47,14 +47,14 @@ font: 36pt &quot;Calibri&quot;;</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>230</y>
+      <y>200</y>
       <width>231</width>
       <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 16pt &quot;Arial&quot;;
-color: rgb(0, 0, 0);</string>
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Please enter the details</string>
@@ -72,7 +72,8 @@ color: rgb(0, 0, 0);</string>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
 font: 12pt &quot;Arial&quot;;
-background-color: rgb(170, 255, 255);</string>
+color: rgb(255,255,255);
+background-color: rgb(49, 63, 255);</string>
     </property>
     <property name="text">
      <string>Create my account</string>
@@ -82,7 +83,7 @@ background-color: rgb(170, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>310</y>
+      <y>280</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -96,7 +97,7 @@ font: 12pt &quot;Arial&quot;;</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>380</y>
+      <y>350</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -113,13 +114,14 @@ font: 12pt &quot;Arial&quot;;</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>280</y>
-      <width>71</width>
+      <y>250</y>
+      <width>81</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Username</string>
@@ -129,13 +131,14 @@ font: 12pt &quot;Arial&quot;;</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>350</y>
+      <y>320</y>
       <width>71</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Password</string>
@@ -162,7 +165,7 @@ font: 12pt &quot;Arial&quot;;</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>460</y>
+      <y>430</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -179,13 +182,14 @@ font: 12pt &quot;Arial&quot;;</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>430</y>
+      <y>400</y>
       <width>141</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Confirm Password</string>
@@ -202,8 +206,9 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(0, 255, 255);
-font: 12pt &quot;Arial&quot;;</string>
+background-color: rgb(49, 63, 255);
+font: 12pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>Back</string>

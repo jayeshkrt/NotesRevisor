@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 243, 71, 255), stop:1 rgba(207, 96, 255, 255));}</string>
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.0436893 rgba(17, 17, 17, 255));}</string>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -36,7 +36,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 36pt &quot;Arial&quot;;</string>
+     <string notr="true">font: 36pt &quot;Arial&quot;;
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
      <string>All Notes</string>
@@ -52,7 +53,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0113636, y1:0.034, x2:1, y2:1, stop:0 rgba(85, 170, 255, 255), stop:1 rgba(255, 255, 127, 255));</string>
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.0436893 rgba(23, 23, 23, 255));</string>
     </property>
     <property name="columnCount">
      <number>6</number>
@@ -99,8 +100,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(170, 170, 255);
-color: rgb(255, 255, 255);
+color : rgb(255,255,255);
+background-color: rgb(49, 63, 255);
 font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
@@ -118,7 +119,8 @@ font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 20px;
-background-color: rgb(0, 255, 255);
+color : rgb(255,255,255);
+background-color: rgb(49, 63, 255);
 font: 12pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
